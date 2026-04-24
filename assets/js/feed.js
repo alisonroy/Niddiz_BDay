@@ -2,112 +2,46 @@
 const memoryFeedData = [
     {
         id: 1,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1502933691298-84fc14542831?w=600&h=600&fit=crop',
-        caption: 'Such beautiful memories with you! ✨',
-        likes: 42,
-        user: 'Birthday Admin',
-        timestamp: '2 hours ago'
+        media: [
+            {type: 'image', url: 'assets/images/fav_us/IMG_2959.jpg'},
+            {type: 'image', url: 'assets/images/fav_us/PXL_20241031_165415221.PORTRAIT.jpg'},
+            {type: 'image', url: 'assets/images/fav_us/IMG_9172.jpg'},
+            {type: 'image', url: 'assets/images/fav_us/PXL_20240801_161610914.MP.jpg'},
+            {type: 'image', url: 'assets/images/fav_us/PXL_20250808_143929878.jpg'},
+            {type: 'image', url: 'assets/images/fav_us/PXL_20241031_165410840.PORTRAIT.jpg'},
+            {type: 'image', url: 'assets/images/fav_us/PXL_20241031_124848300.PORTRAIT.jpg'},
+            {type: 'image', url: 'assets/images/fav_us/PXL_20250220_065504178.MP.jpg' }
+        ],
+        caption: 'My Favoutires of US ✨',
+        likes: 882750,
+        user: 'Alison',
+        timestamp: 'Till the End'
     },
     {
         id: 2,
-        type: 'video',
-        media: 'https://videos.pexels.com/video-files/3962285/3962285-sd_640_360_30fps.mp4',
-        caption: 'Birthday vibes! So much fun today 🎉',
-        likes: 38,
-        user: 'Birthday Admin',
-        timestamp: '3 hours ago'
+        media: [
+            {type: 'image', url: 'assets/images/fav_niddiz/fav_pic.jpg'},
+            {type: 'image', url: 'assets/images/fav_niddiz/IMG_9135.jpg'},
+            {type: 'image', url: 'assets/images/fav_niddiz/IMG_9841.jpg'},
+            {type: 'image', url: 'assets/images/fav_niddiz/IMG-20250506-WA0044.jpg'},
+            {type: 'image', url: 'assets/images/fav_niddiz/Screenshot_20260414-140909~2.png'},
+        ],
+        caption: 'My Favoutires of My Thangachiii ✨',
+        likes: 1000000,
+        user: 'Alison',
+        timestamp: 'Forever Beautiful'
     },
     {
         id: 3,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=600&h=600&fit=crop',
-        caption: 'Cheers to amazing moments 💕',
-        likes: 55,
-        user: 'Birthday Admin',
-        timestamp: '4 hours ago'
+        media: [
+            {type: 'video', url: 'assets/videos/Dad1.mp4'},
+            {type: 'image', url: 'assets/images/Dad_&_Daughter/IMG-20250311-WA0024.jpg' }
+        ],
+        caption: 'Daddy and Daughter',
+        likes: 910021,
+        user: 'Alison',
+        timestamp: 'Since 27/04/2005'
     },
-    {
-        id: 4,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1533138473509-d3b3ca3f56d9?w=600&h=600&fit=crop',
-        caption: 'Best day ever! 🌟',
-        likes: 72,
-        user: 'Birthday Admin',
-        timestamp: '5 hours ago'
-    },
-    {
-        id: 5,
-        type: 'video',
-        media: 'https://videos.pexels.com/video-files/7512523/7512523-sd_640_360_25fps.mp4',
-        caption: 'Dancing and celebration! 🎊',
-        likes: 49,
-        user: 'Birthday Admin',
-        timestamp: '6 hours ago'
-    },
-    {
-        id: 6,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=600&h=600&fit=crop',
-        caption: 'Surrounded by love today ❤️',
-        likes: 88,
-        user: 'Birthday Admin',
-        timestamp: '1 day ago'
-    },
-    {
-        id: 7,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1516634612042-717e6eb50e65?w=600&h=600&fit=crop',
-        caption: 'Time for cake and celebration 🎂',
-        likes: 65,
-        user: 'Birthday Admin',
-        timestamp: '1 day ago'
-    },
-    {
-        id: 8,
-        type: 'video',
-        media: 'https://videos.pexels.com/video-files/2802119/2802119-sd_640_360_30fps.mp4',
-        caption: 'Party never stops! 🎈',
-        likes: 51,
-        user: 'Birthday Admin',
-        timestamp: '1 day ago'
-    },
-    {
-        id: 9,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=600&fit=crop',
-        caption: 'Making memories that last forever ✨',
-        likes: 76,
-        user: 'Birthday Admin',
-        timestamp: '2 days ago'
-    },
-    {
-        id: 10,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1489749798305-ed7fe0d8f67b?w=600&h=600&fit=crop',
-        caption: 'Beautiful moment captured 🌺',
-        likes: 43,
-        user: 'Birthday Admin',
-        timestamp: '2 days ago'
-    },
-    {
-        id: 11,
-        type: 'video',
-        media: 'https://videos.pexels.com/video-files/3722437/3722437-sd_640_360_30fps.mp4',
-        caption: 'Music, friends, and fun! 🎵',
-        likes: 67,
-        user: 'Birthday Admin',
-        timestamp: '2 days ago'
-    },
-    {
-        id: 12,
-        type: 'image',
-        media: 'https://images.unsplash.com/photo-1519720266566-44a6b0f3318f?w=600&h=600&fit=crop',
-        caption: 'One year older, infinitely more fabulous 💫',
-        likes: 92,
-        user: 'Birthday Admin',
-        timestamp: '3 days ago'
-    }
 ];
 
 // Track liked posts
@@ -116,31 +50,11 @@ let likedPosts = {};
 // Initialize app
 document.addEventListener('DOMContentLoaded', function () {
     loadLikesFromStorage();
-    initializeStories();
     initializeFeed();
+    initializeSummary();
+    setupParallax();
     setupEventListeners();
 });
-
-// Initialize Stories
-function initializeStories() {
-    const storiesContainer = document.getElementById('storiesContainer');
-    storiesContainer.innerHTML = '';
-
-    memoryFeedData.slice(0, 6).forEach((memory, index) => {
-        const story = document.createElement('div');
-        story.className = 'ig-story';
-        story.style.backgroundImage = `url('${memory.media}')`;
-        
-        const label = document.createElement('div');
-        label.className = 'ig-story-label';
-        label.textContent = `Day ${index + 1}`;
-        
-        story.appendChild(label);
-        story.addEventListener('click', () => openPostModal(memory));
-        
-        storiesContainer.appendChild(story);
-    });
-}
 
 // Initialize Feed
 function initializeFeed() {
@@ -167,9 +81,27 @@ function createPost(memory) {
     post.className = 'ig-post';
     post.setAttribute('data-id', memory.id);
 
-    const mediaHtml = memory.type === 'video'
-        ? `<video src="${memory.media}" controls style="width: 100%; height: 100%; object-fit: cover;"></video>`
-        : `<img src="${memory.media}" alt="Memory" class="ig-post-image" data-id="${memory.id}">`;
+    let mediaHtml = '';
+    let dotsHtml = '';
+    let hasMultiple = memory.media.length > 1;
+
+    memory.media.forEach((item, index) => {
+        const activeClass = index === 0 ? 'active' : '';
+        if (item.type === 'video') {
+            mediaHtml += `<video src="${item.url}" controls class="ig-post-media ${activeClass}" style="width: 100%; height: 100%; object-fit: cover;"></video>`;
+        } else {
+            mediaHtml += `<img src="${item.url}" alt="Memory" class="ig-post-media ${activeClass}" data-id="${memory.id}">`;
+        }
+        if (hasMultiple) {
+            dotsHtml += `<span class="ig-carousel-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></span>`;
+        }
+    });
+
+    const carouselControls = hasMultiple ? `
+        <button class="ig-carousel-prev" data-id="${memory.id}"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="ig-carousel-next" data-id="${memory.id}"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="ig-carousel-dots">${dotsHtml}</div>
+    ` : '';
 
     post.innerHTML = `
         <div class="ig-post-header">
@@ -185,8 +117,9 @@ function createPost(memory) {
             </button>
         </div>
 
-        <div class="ig-post-image-container">
+        <div class="ig-post-image-container" data-id="${memory.id}">
             ${mediaHtml}
+            ${carouselControls}
         </div>
 
         <div class="ig-post-actions">
@@ -217,24 +150,117 @@ function createPost(memory) {
 
         <div class="ig-comments-section">
             <div class="ig-comment">
-                <span class="ig-comment-author">loved_one:</span>
-                <span class="ig-comment-text">So beautiful! 😍</span>
+                <span class="ig-comment-author">nithisha_rmk:</span>
+                <span class="ig-comment-text">Cuteyyy</span>
             </div>
         </div>
     `;
 
     // Event listeners
     const likeBtn = post.querySelector('.like-btn');
+    const likeCountEl = post.querySelector(`[data-id="${memory.id}"].ig-like-count`);
+    const mediaContainer = post.querySelector('.ig-post-image-container');
+    let clickTimer = null;
+    let lastTap = 0;
+
     likeBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        toggleLike(memory, likeBtn, post.querySelector(`[data-id="${memory.id}"].ig-like-count`));
+        toggleLike(memory, likeBtn, likeCountEl);
     });
 
-    post.querySelector('.ig-post-image-container').addEventListener('click', (e) => {
-        if (e.target.classList.contains('ig-post-image')) {
-            openPostModal(memory);
+    mediaContainer.addEventListener('click', (e) => {
+        const target = e.target;
+        if (!target.classList.contains('ig-post-media') && !target.closest('.ig-carousel-prev, .ig-carousel-next, .ig-carousel-dot')) {
+            if (clickTimer) {
+                return;
+            }
+            clickTimer = setTimeout(() => {
+                openPostModal(memory);
+                clickTimer = null;
+            }, 250);
         }
     });
+
+    mediaContainer.addEventListener('dblclick', (e) => {
+        const target = e.target;
+        if (!target.classList.contains('ig-post-media')) {
+            return;
+        }
+
+        if (clickTimer) {
+            clearTimeout(clickTimer);
+            clickTimer = null;
+        }
+
+        toggleLike(memory, likeBtn, likeCountEl, target);
+    });
+
+    mediaContainer.addEventListener('touchend', (e) => {
+        const target = e.target.closest('.ig-post-media');
+        if (!target) {
+            return;
+        }
+
+        const currentTime = Date.now();
+        const tapLength = currentTime - lastTap;
+
+        if (tapLength < 300 && tapLength > 0) {
+            if (clickTimer) {
+                clearTimeout(clickTimer);
+                clickTimer = null;
+            }
+            toggleLike(memory, likeBtn, likeCountEl, target);
+        }
+
+        lastTap = currentTime;
+    });
+
+    // Carousel controls
+    if (hasMultiple) {
+        const prevBtn = post.querySelector('.ig-carousel-prev');
+        const nextBtn = post.querySelector('.ig-carousel-next');
+        const dots = post.querySelectorAll('.ig-carousel-dot');
+
+        prevBtn.addEventListener('click', () => switchSlide(memory.id, -1));
+        nextBtn.addEventListener('click', () => switchSlide(memory.id, 1));
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => switchSlide(memory.id, index - getCurrentSlideIndex(memory.id)));
+        });
+
+        // Add swipe support
+        let touchStartX = 0;
+        let touchStartY = 0;
+        let touchEndX = 0;
+        let touchEndY = 0;
+
+        mediaContainer.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+            touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+
+        mediaContainer.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            touchEndY = e.changedTouches[0].screenY;
+            handleSwipe(memory.id);
+        }, { passive: true });
+
+        function handleSwipe(postId) {
+            const deltaX = touchStartX - touchEndX;
+            const deltaY = touchStartY - touchEndY;
+            const minSwipeDistance = 50;
+
+            // Only handle horizontal swipes that are longer than vertical movement
+            if (Math.abs(deltaX) > minSwipeDistance && Math.abs(deltaX) > Math.abs(deltaY)) {
+                if (deltaX > 0) {
+                    // Swipe left - next slide
+                    switchSlide(postId, 1);
+                } else {
+                    // Swipe right - previous slide
+                    switchSlide(postId, -1);
+                }
+            }
+        }
+    }
 
     // Update like button styling
     if (likedPosts[memory.id]) {
@@ -244,41 +270,90 @@ function createPost(memory) {
     return post;
 }
 
+// Carousel Functions
+function getCurrentSlideIndex(postId) {
+    const container = document.querySelector(`.ig-post-image-container[data-id="${postId}"]`);
+    const activeMedia = container.querySelector('.ig-post-media.active');
+    return Array.from(container.querySelectorAll('.ig-post-media')).indexOf(activeMedia);
+}
+
+function switchSlide(postId, direction) {
+    const container = document.querySelector(`.ig-post-image-container[data-id="${postId}"]`);
+    const mediaItems = container.querySelectorAll('.ig-post-media');
+    const dots = container.querySelectorAll('.ig-carousel-dot');
+    let currentIndex = getCurrentSlideIndex(postId);
+    let newIndex = currentIndex + direction;
+
+    if (newIndex < 0) newIndex = mediaItems.length - 1;
+    if (newIndex >= mediaItems.length) newIndex = 0;
+
+    mediaItems.forEach((item, index) => {
+        item.classList.toggle('active', index === newIndex);
+    });
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === newIndex);
+    });
+}
+
+function initializeSummary() {
+    const totalMemories = memoryFeedData.length;
+    const totalLikes = memoryFeedData.reduce((sum, item) => sum + item.likes, 0);
+
+    document.getElementById('summaryCount').textContent = totalMemories;
+    document.getElementById('summaryLikes').textContent = totalLikes;
+}
+
+function setupParallax() {
+    const layers = document.querySelectorAll('.ig-parallax-layer');
+    window.addEventListener('scroll', () => {
+        const offset = window.scrollY;
+        layers.forEach((layer) => {
+            const speed = parseFloat(layer.dataset.speed);
+            layer.style.transform = `translateY(${offset * speed}px)`;
+        });
+    });
+}
+
 // Toggle Like
-function toggleLike(memory, button, likeCountEl) {
+function toggleLike(memory, button, likeCountEl, animationTarget = button) {
     if (likedPosts[memory.id]) {
         // Unlike
         likedPosts[memory.id] = false;
         button.classList.remove('liked');
         button.querySelector('i').classList.remove('fa-solid');
         button.querySelector('i').classList.add('far');
-        memory.likes--;
     } else {
         // Like
         likedPosts[memory.id] = true;
         button.classList.add('liked');
         button.querySelector('i').classList.remove('far');
         button.querySelector('i').classList.add('fa-solid');
-        memory.likes++;
-        createLikeAnimation(button);
+        createLikeAnimation(animationTarget, true);
     }
 
-    likeCountEl.innerHTML = `<strong>${memory.likes}</strong> likes`;
+    const currentLikes = memory.likes + (likedPosts[memory.id] ? 1 : 0);
+    likeCountEl.innerHTML = `<strong>${currentLikes}</strong> likes`;
     saveLikesToStorage();
+    initializeSummary();
 }
 
 // Like Animation
-function createLikeAnimation(button) {
+function createLikeAnimation(target, centered = false) {
     const heart = document.createElement('span');
     heart.innerHTML = '❤️';
     heart.style.position = 'fixed';
     heart.style.pointerEvents = 'none';
-    heart.style.fontSize = '2rem';
+    heart.style.fontSize = centered ? '3rem' : '2rem';
     heart.style.zIndex = '999';
 
-    const rect = button.getBoundingClientRect();
-    heart.style.left = rect.left + 'px';
-    heart.style.top = rect.top + 'px';
+    const rect = target.getBoundingClientRect();
+    if (centered) {
+        heart.style.left = `${rect.left + rect.width / 2 - 24}px`;
+        heart.style.top = `${rect.top + rect.height / 2 - 24}px`;
+    } else {
+        heart.style.left = rect.left + 'px';
+        heart.style.top = rect.top + 'px';
+    }
 
     document.body.appendChild(heart);
 
@@ -303,34 +378,113 @@ function createLikeAnimation(button) {
 // Open Modal
 function openPostModal(memory) {
     const modal = document.getElementById('postModal');
-    const modalImage = document.getElementById('modalImage');
+    const modalContent = document.getElementById('modalContent');
     const modalCaption = document.getElementById('modalCaption');
     const modalLikes = document.getElementById('modalLikes');
 
-    if (memory.type === 'video') {
-        const video = document.createElement('video');
-        video.src = memory.media;
-        video.controls = true;
-        video.style.maxWidth = '100%';
-        video.style.maxHeight = '80vh';
-        const parent = modalImage.parentElement;
-        modalImage.replaceWith(video);
-        video.id = 'modalImage';
-    } else {
-        if (modalImage.tagName !== 'IMG') {
-            const img = document.createElement('img');
-            img.id = 'modalImage';
-            modalImage.parentElement.replaceChild(img, modalImage);
-            modalImage = img;
+    let mediaHtml = '';
+    let dotsHtml = '';
+    let hasMultiple = memory.media.length > 1;
+
+    memory.media.forEach((item, index) => {
+        const activeClass = index === 0 ? 'active' : '';
+        if (item.type === 'video') {
+            mediaHtml += `<video src="${item.url}" controls class="modal-media ${activeClass}" style="max-width: 100%; max-height: 80vh;"></video>`;
+        } else {
+            mediaHtml += `<img src="${item.url}" alt="Memory" class="modal-media ${activeClass}">`;
         }
-        document.getElementById('modalImage').src = memory.media;
-    }
+        if (hasMultiple) {
+            dotsHtml += `<span class="modal-carousel-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></span>`;
+        }
+    });
+
+    const carouselControls = hasMultiple ? `
+        <button class="modal-carousel-prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="modal-carousel-next"><i class="fa-solid fa-chevron-right"></i></button>
+        <div class="modal-carousel-dots">${dotsHtml}</div>
+    ` : '';
+
+    modalContent.innerHTML = `
+        ${mediaHtml}
+        ${carouselControls}
+    `;
 
     modalCaption.textContent = memory.caption;
-    modalLikes.textContent = memory.likes;
+    modalLikes.textContent = memory.likes + (likedPosts[memory.id] ? 1 : 0);
+
+    // Add carousel event listeners
+    if (hasMultiple) {
+        const prevBtn = modal.querySelector('.modal-carousel-prev');
+        const nextBtn = modal.querySelector('.modal-carousel-next');
+        const dots = modal.querySelectorAll('.modal-carousel-dot');
+
+        prevBtn.addEventListener('click', () => switchModalSlide(-1));
+        nextBtn.addEventListener('click', () => switchModalSlide(1));
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => switchModalSlide(index - getCurrentModalSlideIndex()));
+        });
+
+        // Add swipe support for modal
+        let modalTouchStartX = 0;
+        let modalTouchStartY = 0;
+        let modalTouchEndX = 0;
+        let modalTouchEndY = 0;
+
+        modalContent.addEventListener('touchstart', (e) => {
+            modalTouchStartX = e.changedTouches[0].screenX;
+            modalTouchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+
+        modalContent.addEventListener('touchend', (e) => {
+            modalTouchEndX = e.changedTouches[0].screenX;
+            modalTouchEndY = e.changedTouches[0].screenY;
+            handleModalSwipe();
+        }, { passive: true });
+
+        function handleModalSwipe() {
+            const deltaX = modalTouchStartX - modalTouchEndX;
+            const deltaY = modalTouchStartY - modalTouchEndY;
+            const minSwipeDistance = 50;
+
+            // Only handle horizontal swipes that are longer than vertical movement
+            if (Math.abs(deltaX) > minSwipeDistance && Math.abs(deltaX) > Math.abs(deltaY)) {
+                if (deltaX > 0) {
+                    // Swipe left - next slide
+                    switchModalSlide(1);
+                } else {
+                    // Swipe right - previous slide
+                    switchModalSlide(-1);
+                }
+            }
+        }
+    }
 
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+}
+
+function getCurrentModalSlideIndex() {
+    const modal = document.getElementById('postModal');
+    const activeMedia = modal.querySelector('.modal-media.active');
+    return Array.from(modal.querySelectorAll('.modal-media')).indexOf(activeMedia);
+}
+
+function switchModalSlide(direction) {
+    const modal = document.getElementById('postModal');
+    const mediaItems = modal.querySelectorAll('.modal-media');
+    const dots = modal.querySelectorAll('.modal-carousel-dot');
+    let currentIndex = getCurrentModalSlideIndex();
+    let newIndex = currentIndex + direction;
+
+    if (newIndex < 0) newIndex = mediaItems.length - 1;
+    if (newIndex >= mediaItems.length) newIndex = 0;
+
+    mediaItems.forEach((item, index) => {
+        item.classList.toggle('active', index === newIndex);
+    });
+    dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === newIndex);
+    });
 }
 
 // Close Modal
@@ -364,7 +518,9 @@ function setupEventListeners() {
     // Dark Mode Toggle
     themeToggle.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
-        localStorage.setItem('feedDarkMode', document.body.classList.contains('dark-mode'));
+        const isDark = document.body.classList.contains('dark-mode');
+        localStorage.setItem('feedDarkMode', isDark);
+        themeToggle.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
     });
 
     // Load dark mode preference

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Memory Feed | Mehwish Birthday">
-    <title>Memory Feed - Mehwish Birthday</title>
+    <meta name="title" content="Memory Feed | Niddiz Birthday">
+    <title>Memory Feed - Niddiz Birthday</title>
     <link rel="stylesheet" href="assets/css/feed.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
@@ -17,6 +17,10 @@
 </head>
 
 <body class="instagram-feed-body">
+    <div class="ig-parallax-layer layer-1" data-speed="0.1"></div>
+    <div class="ig-parallax-layer layer-2" data-speed="0.16"></div>
+    <div class="ig-parallax-layer layer-3" data-speed="0.22"></div>
+
     <div class="ig-main-wrapper">
         <!-- Header -->
         <header class="ig-header">
@@ -37,12 +41,20 @@
             </div>
         </header>
 
-        <!-- Stories Section -->
-        <div class="ig-stories-container">
-            <div class="ig-stories" id="storiesContainer">
-                <!-- Stories will be inserted here -->
+        <section class="ig-top-summary" id="summaryBar">
+            <div class="summary-group">
+                <span class="summary-label">Total Memories</span>
+                <strong id="summaryCount">0</strong>
             </div>
-        </div>
+            <div class="summary-group">
+                <span class="summary-label">Total Likes</span>
+                <strong id="summaryLikes">0</strong>
+            </div>
+            <div class="summary-group">
+                <span class="summary-label">Latest</span>
+                <strong>Happy Moments</strong>
+            </div>
+        </section>
 
         <!-- Main Feed -->
         <div class="ig-feed-wrapper">
@@ -53,16 +65,6 @@
                 <div class="spinner"></div>
             </div>
         </div>
-
-        <!-- Sidebar (Desktop) -->
-        <div class="ig-sidebar">
-            <div class="ig-sidebar-sticky">
-                <div class="ig-sidebar-card">
-                    <h3>Memories</h3>
-                    <p>Celebrating beautiful moments together! 💕</p>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Modal for expanded view -->
@@ -70,15 +72,17 @@
         <span class="ig-modal-close">&times;</span>
         <div class="ig-modal-content">
             <div class="ig-modal-image">
-                <img id="modalImage" src="" alt="">
+                <div id="modalContent">
+                    <!-- Media will be inserted here -->
+                </div>
             </div>
             <div class="ig-modal-details">
                 <div class="ig-modal-header">
                     <div class="ig-modal-info">
                         <div class="ig-user-avatar"></div>
                         <div>
-                            <p class="ig-modal-user">Dear Mehwish</p>
-                            <p class="ig-modal-time">Birthday Memories</p>
+                            <p class="ig-modal-user">Dear Niddiz</p>
+                            <p class="ig-modal-time">Happy Moments</p>
                         </div>
                     </div>
                 </div>
