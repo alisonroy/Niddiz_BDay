@@ -3,14 +3,14 @@ const memoryFeedData = [
     {
         id: 1,
         media: [
-            {type: 'image', url: 'assets/images/fav_us/IMG_2959.jpg'},
-            {type: 'image', url: 'assets/images/fav_us/PXL_20241031_165415221.PORTRAIT.jpg'},
-            {type: 'image', url: 'assets/images/fav_us/IMG_9172.jpg'},
-            {type: 'image', url: 'assets/images/fav_us/PXL_20240801_161610914.MP.jpg'},
-            {type: 'image', url: 'assets/images/fav_us/PXL_20250808_143929878.jpg'},
-            {type: 'image', url: 'assets/images/fav_us/PXL_20241031_165410840.PORTRAIT.jpg'},
-            {type: 'image', url: 'assets/images/fav_us/PXL_20241031_124848300.PORTRAIT.jpg'},
-            {type: 'image', url: 'assets/images/fav_us/PXL_20250220_065504178.MP.jpg' }
+            { type: 'image', url: 'assets/images/fav_us/IMG_2959.jpg' },
+            { type: 'image', url: 'assets/images/fav_us/PXL_20241031_165415221.PORTRAIT.jpg' },
+            { type: 'image', url: 'assets/images/fav_us/IMG_9172.jpg' },
+            { type: 'image', url: 'assets/images/fav_us/PXL_20240801_161610914.MP.jpg' },
+            { type: 'image', url: 'assets/images/fav_us/PXL_20250808_143929878.jpg' },
+            { type: 'image', url: 'assets/images/fav_us/PXL_20241031_165410840.PORTRAIT.jpg' },
+            { type: 'image', url: 'assets/images/fav_us/PXL_20241031_124848300.PORTRAIT.jpg' },
+            { type: 'image', url: 'assets/images/fav_us/PXL_20250220_065504178.MP.jpg' }
         ],
         caption: 'My Favoutires of US ✨',
         likes: 882750,
@@ -20,11 +20,12 @@ const memoryFeedData = [
     {
         id: 2,
         media: [
-            {type: 'image', url: 'assets/images/fav_niddiz/fav_pic.jpg'},
-            {type: 'image', url: 'assets/images/fav_niddiz/IMG_9135.jpg'},
-            {type: 'image', url: 'assets/images/fav_niddiz/IMG_9841.jpg'},
-            {type: 'image', url: 'assets/images/fav_niddiz/IMG-20250506-WA0044.jpg'},
-            {type: 'image', url: 'assets/images/fav_niddiz/Screenshot_20260414-140909~2.png'},
+            { type: 'image', url: 'assets/images/fav_niddiz/fav_pic.jpg' },
+            { type: 'image', url: 'assets/images/fav_niddiz/IMG_9135.jpg' },
+            { type: 'image', url: 'assets/images/fav_niddiz/IMG_9841.jpg' },
+            { type: 'image', url: 'assets/images/fav_niddiz/IMG-20250506-WA0044.jpg' },
+            { type: 'video', url: 'assets/videos/Snapchat-1856792952.mp4' },
+            { type: 'image', url: 'assets/images/fav_niddiz/Screenshot_20260414-140909~2.png' },
         ],
         caption: 'My Favoutires of My Thangachiii ✨',
         likes: 1000000,
@@ -34,8 +35,8 @@ const memoryFeedData = [
     {
         id: 3,
         media: [
-            {type: 'video', url: 'assets/videos/Dad1.mp4'},
-            {type: 'image', url: 'assets/images/Dad_&_Daughter/IMG-20250311-WA0024.jpg' }
+            { type: 'video', url: 'assets/videos/Dad1.mp4' },
+            { type: 'image', url: 'assets/images/Dad_&_Daughter/IMG-20250311-WA0024.jpg' }
         ],
         caption: 'Daddy and Daughter',
         likes: 910021,
@@ -45,12 +46,136 @@ const memoryFeedData = [
     {
         id: 4,
         media: [
-            {type: 'video', url: 'https://drive.google.com/file/d/15mUoCSv68FDMZYjkgELecHDX3vNEwCRx/view?usp=sharing'},
+            { type: 'video', url: 'assets/videos/niddiz_21st_bday_wish.mp4' },
         ],
         caption: 'Birthday Wish',
         likes: 125,
         user: 'Alison Roy',
         timestamp: '27 April 2026'
+    },
+    {
+        id: 5,
+        media: [
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_4311.png' },
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_5068.PNG' },
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_6016.PNG' },
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_6017.PNG' },
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_6600.JPG' },
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_6601.PNG' },
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_0475.jpg' },
+        ],
+        caption: 'Kutty Niddiz',
+        likes: 75132,
+        user: 'Alison Roy',
+        timestamp: 'Childhood Days'
+    },
+    {
+        id: 6,
+        media: [
+            { type: 'video', url: 'assets/videos/collage/Memories_together.mp4' },
+            { type: 'image', url: 'assets/images/collage/IMG_6498-COLLAGE.jpg' },
+            { type: 'image', url: 'assets/images/collage/IMG_8162-COLLAGE.jpg' },
+            { type: 'image', url: 'assets/images/collage/PXL_20240608_043350849.PORTRAIT-COLLAGE.jpg' },
+            { type: 'image', url: 'assets/images/collage/PXL_20240904_163002738.MP-COLLAGE.jpg' },
+            { type: 'video', url: 'assets/videos/collage/Snapchat-2003755775.mp4' },
+            { type: 'image', url: 'assets/images/collage/PXL_20250628_103532683.MP-COLLAGE.jpg' },
+            { type: 'image', url: 'assets/images/collage/IMG_6215-COLLAGE.jpg' },
+        ],
+        caption: 'Collage of Memories',
+        likes: 987612,
+        user: 'Alison Roy',
+        timestamp: 'Best Moments'
+    },
+    {
+        id: 7,
+        media: [
+            { type: 'image', url: 'assets/images/cars/PXL_20251030_124126189.jpg' },
+            { type: 'video', url: 'assets/videos/cars/PXL_20250628_094848443.mp4' },
+            { type: 'image', url: 'assets/images/cars/PXL_20250722_154125810.MP.jpg' },
+            { type: 'image', url: 'assets/images/cars/PXL_20250720_174923512.MP.jpg' },
+            { type: 'video', url: 'assets/videos/cars/Snapchat-1107838294.mp4' },
+        ],
+        caption: 'Niddiz and Cars 🚗',
+        likes: 75213,
+        user: 'Alison Roy',
+        timestamp: 'Busy Driving'
+    },
+    {
+        id: 8,
+        media: [
+            { type: 'image', url: 'assets/images/disappointment/PXL_20250803_163530794.jpg' },
+            { type: 'image', url: 'assets/images/disappointment/PXL_20250721_165021605.MP.jpg' },
+            { type: 'image', url: 'assets/images/disappointment/PXL_20250716_164206722.MP.jpg' },
+        ],
+        caption: 'When life hits you 360',
+        likes: 9812,
+        user: 'Alison Roy',
+        timestamp: 'Almost Everyday'
+    },
+    {
+        id: 9,
+        media: [
+            { type: 'image', url: 'assets/images/noface/PXL_20241031_120704773.MP.jpg' },
+            { type: 'image', url: 'assets/images/noface/PXL_20241130_143129972.MP.jpg' },
+            { type: 'image', url: 'assets/images/noface/PXL_20251020_125206616.jpg' },
+        ],
+        caption: 'Sottai hitting her favourite pose',
+        likes: 87612,
+        user: 'Alison Roy',
+        timestamp: 'Almost All the Photos'
+    },
+    {
+        id: 10,
+        media: [
+            { type: 'image', url: 'assets/images/awkward/PXL_20241118_122935013.MP.jpg' },
+            { type: 'image', url: 'assets/images/awkward/CA32D427-9237-416E-A26D-D16D6A4618A9.jpg' },
+            { type: 'image', url: 'assets/images/awkward/PXL_20250628_085822469.MP.jpg' },
+            { type: 'image', url: 'assets/images/awkward/PXL_20251218_145332569.PORTRAIT.jpg' },
+        ],
+        caption: 'Awkward Faces ft. Niddiz',
+        likes: 15412,
+        user: 'Alison Roy',
+        timestamp: 'Rare Times'
+    },
+    {
+        id: 11,
+        media: [
+            { type: 'video', url: 'assets/videos/artist/IMG_8132.MOV' },
+            { type: 'image', url: 'assets/images/artist/IMG_8134.JPG' },
+            { type: 'video', url: 'assets/videos/artist/Snapchat-135794242.mp4' },
+            { type: 'video', url: 'assets/videos/artist/Snapchat-1193356604.mp4' },
+        ],
+        caption: 'Nee oru Artistu lae',
+        likes: 42312,
+        user: 'Alison Roy',
+        timestamp: 'When Bored'
+    },
+    {
+        id: 12,
+        media: [
+            { type: 'image', url: 'assets/images/mirror/PXL_20250628_074858714.MP.jpg' },
+            { type: 'video', url: 'assets/videos/mirror/0B5A1194-1161-48B6-9057-29A80A0D53C7.mp4' },
+            { type: 'image', url: 'assets/images/mirror/Snapchat-2019994286.jpg' },
+            { type: 'image', url: 'assets/images/mirror/Snapchat-1677891395.jpg' },
+            { type: 'video', url: 'assets/videos/mirror/Snapchat-907781374.mp4' },
+            { type: 'image', url: 'assets/images/mirror/Snapchat-668979380.jpg' },
+            { type: 'image', url: 'assets/images/mirror/Screenshot_20240716-121123.png' },
+            { type: 'video', url: 'assets/videos/mirror/Snapchat-901951518.mp4' },
+            { type: 'image', url: 'assets/images/mirror/IMG_5924.JPG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_5510.PNG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_4617.PNG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_4051.PNG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_2254.PNG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_9931.PNG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_8811.PNG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_8743.PNG' },
+            { type: 'image', url: 'assets/images/mirror/IMG_4649.PNG' },
+ 
+        ],
+        caption: 'Sottai Mirror Obsession!!!',
+        likes: 6612,
+        user: 'Alison Roy',
+        timestamp: 'Most of the Stories or Snaps'
     },
 ];
 
@@ -74,7 +199,7 @@ function initializeFeed() {
     memoryFeedData.forEach((memory, index) => {
         const post = createPost(memory);
         feed.appendChild(post);
-        
+
         // Stagger animation
         setTimeout(() => {
             post.style.opacity = '0';

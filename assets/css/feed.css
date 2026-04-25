@@ -294,11 +294,15 @@
     position: absolute;
     top: 0;
     left: 0;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .ig-post-media.active {
     opacity: 1;
     position: relative;
+    pointer-events: auto;
+    z-index: 1;
 }
 
 .ig-post-image-container:hover .ig-post-media.active {
@@ -530,11 +534,15 @@
     opacity: 0;
     position: absolute;
     transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 0;
 }
 
 .modal-media.active {
     opacity: 1;
     position: relative;
+    pointer-events: auto;
+    z-index: 1;
 }
 
 .modal-carousel-prev,
