@@ -177,6 +177,127 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: 'Most of the Stories or Snaps'
     },
+    {
+        id: 13,
+        media: [
+            { type: 'image', url: 'assets/images/formal/5d753c9c-3f5b-4989-b767-687f91e86931.jpg' },
+            { type: 'image', url: 'assets/images/formal/IMG_4840.jpg' },
+ 
+        ],
+        caption: 'Finally straight Face Photos 😙',
+        likes: 98,
+        user: 'Alison Roy',
+        timestamp: 'Once in a Blue Moon'
+    },
+    {
+        id: 14,
+        media: [
+            { type: 'video', url: 'assets/videos/Snapchat-1796366170.mp4' }, 
+        ],
+        caption: "Our First Movie Thaniya - Project Hail Mary",
+        likes: 6571,
+        user: 'Alison Roy',
+        timestamp: '15 April 2026'
+    },
+    {
+        id: 15,
+        media: [
+            { type: 'video', url: 'assets/videos/ECR/Snapchat-1332258719.mp4' }, 
+            { type: 'video', url: 'assets/videos/ECR/Snapchat-320866666.mp4' }, 
+            { type: 'image', url: 'assets/images/PXL_20260331_131946992.MP.jpg' }, 
+        ],
+        caption: "ECR Polamaaaa ?",
+        likes: 42123,
+        user: 'Alison Roy',
+        timestamp: '15 April 2026'
+    },
+    {
+        id: 16,
+        media: [
+            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_125618294.mp4' }, 
+            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_152025871.mp4' }, 
+            { type: 'video', url: 'assets/videos/Highway/Snapchat-5705355.mp4' }, 
+            { type: 'video', url: 'assets/videos/Highway/Snapchat-726450220.mp4' }, 
+            { type: 'video', url: 'assets/videos/Highway/Snapchat-2045489062.mp4' }, 
+            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_144202388.mp4' }, 
+        ],
+        caption: "Passenger Prince + Highway Ride + Reliance Smart = Great Day",
+        likes: 58722,
+        user: 'Alison Roy',
+        timestamp: '5 March 2026'
+    },
+    {
+        id: 17,
+        media: [
+            { type: 'image', url: 'assets/images/Crab/Snapchat-352801905.jpg' }, 
+            { type: 'image', url: 'assets/images/Crab/Snapchat-413380019.jpg' }, 
+        ],
+        caption: "Rare days when our restaurant selection turn out great; That Crab 🥰",
+        likes: 18771,
+        user: 'Alison Roy',
+        timestamp: '27 February 2026'
+    },
+    {
+        id: 18,
+        media: [
+            { type: 'video', url: 'assets/videos/Diet/PXL_20260128_132407758.mp4' }, 
+            { type: 'video', url: 'assets/videos/Diet/Snapchat-1109537230.mp4' }, 
+        ],
+        caption: "When we are on Diet",
+        likes: 67162,
+        user: 'Alison Roy',
+        timestamp: '28 January 2026'
+    },
+    {
+        id: 19,
+        media: [
+            { type: 'image', url: 'assets/images/flowers/PXL_20260125_053529804.jpg' }, 
+            { type: 'image', url: 'assets/images/flowers/PXL_20260125_041225499.MP.jpg' }, 
+        ],
+        caption: "Flowers to cheer up Madommmm!",
+        likes: 18771,
+        user: 'Alison Roy',
+        timestamp: '25 January 2026'
+    },
+    {
+        id: 20,
+        media: [
+            { type: 'video', url: 'assets/videos/IMG_7717.MOV' }, 
+            { type: 'image', url: 'assets/images/ooty/PXL_20260118_043451835.jpg' },
+            { type: 'image', url: 'assets/images/ooty/IMG_7762.jpg' }, 
+            { type: 'image', url: 'assets/images/ooty/IMG_7786.jpg' }, 
+            { type: 'image', url: 'assets/images/ooty/IMG_9413.jpg' }, 
+        ],
+        caption: "Our Secoind Trip - Ooootyyyy !!",
+        likes: 4191,
+        user: 'Alison Roy',
+        timestamp: '16 January 2026 - 18 January 2026'
+    },
+    
+    // {
+    //     id: 15,
+    //     media: [
+    //         { type: 'video', url: 'assets/videos/brando/b0d752cda907432c94e939ce4a40cda4.mov' },
+    //         { type: 'video', url: 'assets/videos/brando/c87aac875f554799a0244c0507434df0.mov' },
+ 
+    //     ],
+    //     caption: "How can we forget Brando !!",
+    //     likes: 76123,
+    //     user: 'Alison Roy',
+    //     timestamp: '8 June 2021'
+    // },
+    // {
+    //     id: 15,
+    //     media: [
+    //         { type: 'image', url: 'assets/images/16thbday/IMG_4978.PNG' },
+    //         { type: 'image', url: 'assets/images/16thbday/IMG_4970.PNG' },
+ 
+    //     ],
+    //     caption: "Thangachiii's Birthday since we met",
+    //     likes: 76123,
+    //     user: 'Alison Roy',
+    //     timestamp: '27 April 2021'
+    // },
 ];
 
 // Track liked posts
@@ -286,7 +407,7 @@ function createPost(memory) {
         <div class="ig-comments-section">
             <div class="ig-comment">
                 <span class="ig-comment-author">nithisha_rmk:</span>
-                <span class="ig-comment-text">Cuteyyy</span>
+                <span class="ig-comment-text">Cutayyy</span>
             </div>
         </div>
     `;
