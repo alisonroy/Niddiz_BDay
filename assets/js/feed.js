@@ -1074,10 +1074,12 @@ const memoryFeedData = [
 
 // Track liked posts
 let likedPosts = {};
+let videoObserver;
 
 // Initialize app
 document.addEventListener('DOMContentLoaded', function () {
     loadLikesFromStorage();
+    setupVideoPauseHandlers();
     initializeFeed();
     initializeSummary();
     setupParallax();
@@ -1295,10 +1297,11 @@ function createPost(memory) {
         likeBtn.classList.add('liked');
     }
 
+    post.querySelectorAll('video').forEach(observeVideoElement);
+
     return post;
 }
 
-// Carousel Functions
 function getCurrentSlideIndex(postId) {
     const container = document.querySelector(`.ig-post-image-container[data-id="${postId}"]`);
     const activeMedia = container.querySelector('.ig-post-media.active');
@@ -1315,12 +1318,23 @@ function switchSlide(postId, direction) {
     if (newIndex < 0) newIndex = mediaItems.length - 1;
     if (newIndex >= mediaItems.length) newIndex = 0;
 
+    mediaItems.forEach((item) => {
+        if (item.tagName === 'VIDEO') {
+            item.pause();
+        }
+    });
+
     mediaItems.forEach((item, index) => {
         item.classList.toggle('active', index === newIndex);
     });
     dots.forEach((dot, index) => {
         dot.classList.toggle('active', index === newIndex);
     });
+
+    const activeVideo = container.querySelector('.ig-post-media.active');
+    if (activeVideo && activeVideo.tagName === 'VIDEO') {
+        activeVideo.play().catch(() => {});
+    }
 }
 
 function initializeSummary() {
@@ -1339,6 +1353,63 @@ function setupParallax() {
             const speed = parseFloat(layer.dataset.speed);
             layer.style.transform = `translateY(${offset * speed}px)`;
         });
+    });
+}
+
+function setupVideoPauseHandlers() {
+    videoObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            const video = entry.target;
+            const isActive = video.classList.contains('active');
+            if (!isActive) {
+                return;
+            }
+
+            if (entry.intersectionRatio >= 0.5 && document.visibilityState === 'visible') {
+                video.play().catch(() => {});
+            } else {
+                video.pause();
+            }
+        });
+    }, { threshold: [0, 0.25, 0.5, 0.75, 1] });
+
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+            pauseAllVideos();
+        } else {
+            playVisibleVideos();
+        }
+    });
+
+    window.addEventListener('blur', pauseAllVideos);
+    window.addEventListener('focus', playVisibleVideos);
+    window.addEventListener('pagehide', pauseAllVideos);
+}
+
+function observeVideoElement(video) {
+    if (!videoObserver || !(video instanceof HTMLVideoElement)) {
+        return;
+    }
+    videoObserver.observe(video);
+}
+
+function pauseAllVideos() {
+    document.querySelectorAll('video').forEach((video) => video.pause());
+}
+
+function playVisibleVideos() {
+    document.querySelectorAll('video').forEach((video) => {
+        if (!video.classList.contains('active')) {
+            return;
+        }
+
+        const rect = video.getBoundingClientRect();
+        const height = Math.max(rect.height, 1);
+        const visibleHeight = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
+
+        if (visibleHeight / height >= 0.5) {
+            video.play().catch(() => {});
+        }
     });
 }
 
@@ -1439,6 +1510,7 @@ function openPostModal(memory) {
 
     modalCaption.textContent = memory.caption;
     modalLikes.textContent = memory.likes + (likedPosts[memory.id] ? 1 : 0);
+    modal.querySelectorAll('video').forEach(observeVideoElement);
 
     // Add carousel event listeners
     if (hasMultiple) {
@@ -1489,6 +1561,11 @@ function openPostModal(memory) {
 
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    const activeVideo = modal.querySelector('.modal-media.active');
+    if (activeVideo && activeVideo.tagName === 'VIDEO') {
+        activeVideo.play().catch(() => {});
+    }
 }
 
 function getCurrentModalSlideIndex() {
@@ -1507,12 +1584,23 @@ function switchModalSlide(direction) {
     if (newIndex < 0) newIndex = mediaItems.length - 1;
     if (newIndex >= mediaItems.length) newIndex = 0;
 
+    mediaItems.forEach((item) => {
+        if (item.tagName === 'VIDEO') {
+            item.pause();
+        }
+    });
+
     mediaItems.forEach((item, index) => {
         item.classList.toggle('active', index === newIndex);
     });
     dots.forEach((dot, index) => {
         dot.classList.toggle('active', index === newIndex);
     });
+
+    const activeVideo = modal.querySelector('.modal-media.active');
+    if (activeVideo && activeVideo.tagName === 'VIDEO') {
+        activeVideo.play().catch(() => {});
+    }
 }
 
 // Close Modal
