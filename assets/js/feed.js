@@ -131,6 +131,7 @@ const memoryFeedData = [
             { type: 'image', url: 'assets/images/awkward/CA32D427-9237-416E-A26D-D16D6A4618A9.jpg' },
             { type: 'image', url: 'assets/images/awkward/PXL_20250628_085822469.MP.jpg' },
             { type: 'image', url: 'assets/images/awkward/PXL_20251218_145332569.PORTRAIT.jpg' },
+            { type: 'image', url: 'assets/images/awkward/IMG_2305.jpg' },
         ],
         caption: 'Awkward Faces ft. Niddiz',
         likes: 15412,
@@ -192,7 +193,12 @@ const memoryFeedData = [
     {
         id: 14,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-1796366170.mp4' }, 
+            { type: 'video', url: 'assets/videos/21bday/VID-20260427-WA0021.mp4' },
+            { type: 'video', url: 'assets/videos/21bday/VID-20260427-WA0027.mp4' },
+            { type: 'image', url: 'assets/images/21bday/IMG-20260427-WA0020.jpg' },
+            { type: 'video', url: 'assets/videos/21bday/PXL_20260426_194807021.mp4' },
+            { type: 'image', url: 'assets/images/21bday/PXL_20260426_200019884.jpg' },
+            { type: 'video', url: 'assets/videos/21bday/PXL_20260426_201202891.mp4' },
         ],
         caption: "Thangachiii's 21st Birthday",
         likes: 909123,
@@ -677,32 +683,393 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '19 October 2024'
     },
+    {    
+        id: 57,
+        media: [
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104757512.MP.jpg'},
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104759759.MP.jpg'},
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104754958.MP.jpg'},
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104703206.MP.jpg'},
+        ],
+        caption: "Happy and Crazy US",
+        likes: 100097,
+        user: 'Alison Roy',
+        timestamp: '16 October 2024'
+    },
+    {    
+        id: 58,
+        media: [
+            { type: 'video', url: 'assets/videos/Snapchat-449558827.mp4'},
+        ],
+        caption: "Obviously",
+        likes: 7657,
+        user: 'Alison Roy',
+        timestamp: '2 October 2024'
+    },
+    {    
+        id: 59,
+        media: [
+            { type: 'image', url: 'assets/images/PXL_20240904_163002738.MP.jpg'},
+        ],
+        caption: "If Disappointment had a Face",
+        likes: 87614,
+        user: 'Alison Roy',
+        timestamp: '4 September 2024'
+    },
+    {    
+        id: 60,
+        media: [
+            { type: 'image', url: 'assets/images/abday24/PXL_20240825_160822556.MP.jpg'},
+            { type: 'video', url: 'assets/videos/Snapchat-827205716.mp4'},
+            { type: 'image', url: 'assets/images/abday24/Snapchat-63235082.jpg'},
+        ],
+        caption: "My 23rd Birthday",
+        likes: 8091,
+        user: 'Alison Roy',
+        timestamp: '25 August 2024'
+    },
+    {    
+        id: 61,
+        media: [
+            { type: 'image', url: 'assets/images/PXL_20240810_122120733.NIGHT.jpg'},
+        ],
+        caption: "Our Last Photo in Dzire",
+        likes: 6671,
+        user: 'Alison Roy',
+        timestamp: '10 August 2024'
+    },
+    {
+      id: 62,
+        media: [
+            { type: 'image', url: 'assets/images/PXL_20240802_134110484.MP.jpg'},
+        ],
+        caption: "Trusting her with my Life",
+        likes: 98123,
+        user: 'Alison Roy',
+        timestamp: '2 August 2024'
+    },
+    {
+      id: 63,
+        media: [
+            { type: 'video', url: 'assets/videos/Snapchat-2045038052.mp4'},
+        ],
+        caption: "Sottai Loves Rain",
+        likes: 5131,
+        user: 'Alison Roy',
+        timestamp: '3 July 2024'
+    },
+    {
+      id: 64,
+        media: [
+            { type: 'video', url: 'assets/videos/Snapchat-967195375.mp4'},
+            { type: 'image', url: 'assets/images/PXL_20240616_122702161.PORTRAIT.jpg'},
+        ],
+        caption: "Smiles All Around 😊",
+        likes: 6379,
+        user: 'Alison Roy',
+        timestamp: '16 June 2024'
+    },
+    {
+      id: 65,
+        media: [
+            { type: 'image', url: 'assets/images/PXL_20240608_043350849.PORTRAIT.jpg'},
+        ],
+        caption: "Saranadaikiran Thaaye 🧎",
+        likes: 8913,
+        user: 'Alison Roy',
+        timestamp: '8 June 2024'
+    },
+    {
+      id: 66,
+        media: [
+            { type: 'image', url: 'assets/images/ap/IMG_3885.JPG'},
+            { type: 'image', url: 'assets/images/ap/DSC_6185_Original.JPG'},
+        ],
+        caption: "Our First Amusement Park Trip",
+        likes: 34698,
+        user: 'Alison Roy',
+        timestamp: '23 December 2023'
+    },
+    {
+      id: 67,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_2679.jpg'},
+        ],
+        caption: "Candid Aahn",
+        likes: 34698,
+        user: 'Alison Roy',
+        timestamp: '17 October 2023'
+    },
+    {
+      id: 68,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_2016.jpg'},
+        ],
+        caption: "My 22nd Birthday",
+        likes: 4583,
+        user: 'Alison Roy',
+        timestamp: '25 August 2023'
+    },
+    {
+      id: 69,
+        media: [
+            { type: 'video', url: 'assets/videos/recorded-6414982890583.mp4'},
+        ],
+        caption: "Always Busy thaan Madam",
+        likes: 1236,
+        user: 'Alison Roy',
+        timestamp: '19 August 2023'
+    },
+    {
+      id: 70,
+        media: [
+            { type: 'video', url: 'assets/videos/sky/Snapchat-1588085299.mp4'},
+            { type: 'image', url: 'assets/images/IMG_1523.jpg'},
+            { type: 'video', url: 'assets/videos/sky/filtered-6E1BB02F-9043-440E-901B-F5B745703F80.mp4'},
 
-    
-    // {
-    //     id: 15,
-    //     media: [
-    //         { type: 'video', url: 'assets/videos/brando/b0d752cda907432c94e939ce4a40cda4.mov' },
-    //         { type: 'video', url: 'assets/videos/brando/c87aac875f554799a0244c0507434df0.mov' },
+        ],
+        caption: "The day SKY came into our Lives",
+        likes: 79541,
+        user: 'Alison Roy',
+        timestamp: '15 July 2023'
+    },
+    {
+      id: 71,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_0649.jpg'},
+        ],
+        caption: "Our First Lunch Thaniya",
+        likes: 61853,
+        user: 'Alison Roy',
+        timestamp: '16 May 2023'
+    },
+    {
+      id: 72,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_9789.jpg'},
+        ],
+        caption: "Niddiz's 18th Birthday",
+        likes: 86254,
+        user: 'Alison Roy',
+        timestamp: '28 April 2023'
+    },
+    {
+      id: 73,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_7067.jpg'},
+        ],
+        caption: "I am her Handbag",
+        likes: 75523,
+        user: 'Alison Roy',
+        timestamp: '23 February 2023'
+    },
+    {
+      id: 74,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_6214.jpg'},
+        ],
+        caption: "Accidental Twinning",
+        likes: 46181,
+        user: 'Alison Roy',
+        timestamp: '12 January 2023'
+    },
+    {
+      id: 75,
+        media: [
+            { type: 'video', url: 'assets/videos/filtered-E2E644CC-7DE2-4959-982B-5947AC70127E.mp4'},
+            { type: 'image', url: 'assets/images/IMG_5238.jpg'},
+        ],
+        caption: "Diwali 2k22",
+        likes: 51681,
+        user: 'Alison Roy',
+        timestamp: '24 October 2022'
+    },
+    {
+      id: 76,
+        media: [
+            { type: 'image', url: 'assets/images/first_movie/IMG_4744.JPG'},
+            { type: 'image', url: 'assets/images/first_movie/IMG_4783.JPG'},
+        ],
+        caption: "Our First Movie Together",
+        likes: 23654,
+        user: 'Alison Roy',
+        timestamp: '24 September 2022'
+    },
+    {
+      id: 77,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_4345.JPG'},
+        ],
+        caption: "Not so Fit US ",
+        likes: 14862,
+        user: 'Alison Roy',
+        timestamp: '4 September 2022'
+    },
+    {
+      id: 78,
+        media: [
+            { type: 'video', url: 'assets/videos/filtered-BE602066-8977-40F1-8412-418345808577.mp4'},
+        ],
+        caption: "A gift that has been passed on to Leah",
+        likes: 56249,
+        user: 'Alison Roy',
+        timestamp: '27 August 2022'
+    },
+    {
+      id: 79,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_4121.jpg'},
+        ],
+        caption: "My 21st Birthday",
+        likes: 78951,
+        user: 'Alison Roy',
+        timestamp: '25 August 2022'
+    },
+    {
+      id: 80,
+        media: [
+            { type: 'video', url: 'assets/videos/E9926318-1D70-4D8F-844B-45C887E5FCDE.mp4'},
+        ],
+        caption: "Madam's Singing Skills aka Isai Mazhaiyil Nanaiya Thayaraa",
+        likes: 8534,
+        user: 'Alison Roy',
+        timestamp: '7 August 2022'
+    },
+    {
+      id: 81,
+        media: [
+            { type: 'video', url: 'assets/videos/recorded-364914089852.mp4'},
+        ],
+        caption: "Kadharalz",
+        likes: 4561,
+        user: 'Alison Roy',
+        timestamp: '20 July 2022'
+    },
+    {
+      id: 82,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_1301.JPG'},
+        ],
+        caption: "Niddiz 17th Birthday",
+        likes: 85412,
+        user: 'Alison Roy',
+        timestamp: '27 April 2022'
+    },
+    {
+      id: 83,
+        media: [
+            { type: 'video', url: 'assets/videos/filtered-96F960FD-C557-4D73-A278-0B2AA3752CB8.mp4'},
+        ],
+        caption: "You are always Late",
+        likes: 7989,
+        user: 'Alison Roy',
+        timestamp: '12 March 2022'
+    },
+    {
+      id: 84,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_8812.jpg'},
+        ],
+        caption: "Hope you liked the Hoodie",
+        likes: 16632,
+        user: 'Alison Roy',
+        timestamp: '11 November 2021'
+    },
+    {
+      id: 85,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_8808.jpg'},
+        ],
+        caption: "Not for Me",
+        likes: 25632,
+        user: 'Alison Roy',
+        timestamp: '10 November 2021'
+    },
+    {
+      id: 86,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_8165.jpg'},
+        ],
+        caption: "Photo After our First Fight",
+        likes: 35641,
+        user: 'Alison Roy',
+        timestamp: '16 October 2021'
+    },
+    {
+      id: 87,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_7917.jpg'},
+        ],
+        caption: "Pathen Pathen",
+        likes: 21563,
+        user: 'Alison Roy',
+        timestamp: '11 October 2021'
+    },
+    {
+      id: 88,
+        media: [
+            { type: 'image', url: 'assets/images/joe/IMG_7205.JPG'},
+            { type: 'image', url: 'assets/images/joe/IMG_7203.jpg'},
+        ],
+        caption: "Joe's Waffle - Our First Meeting Outside Flats",
+        likes: 65812,
+        user: 'Alison Roy',
+        timestamp: '25 September 2021'
+    },
+    {
+      id: 89,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_6498.jpg'},
+        ],
+        caption: "Our First Photo Together",
+        likes: 33977515,
+        user: 'Alison Roy',
+        timestamp: '25 August 2021'
+    },
+    {
+      id: 90,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_6190.JPG'},
+        ],
+        caption: "Apdiyae Potuko",
+        likes: 6521,
+        user: 'Alison Roy',
+        timestamp: '31 July 2021'
+    },
+    {
+      id: 91,
+        media: [
+            { type: 'image', url: 'assets/images/IMG_6097.jpg'},
+        ],
+        caption: "Obviously Mallu maari thaan Iruka",
+        likes: 9531,
+        user: 'Alison Roy',
+        timestamp: '25 July 2021'
+    },
+    {
+        id: 92,
+        media: [
+            { type: 'video', url: 'assets/videos/brando/b0d752cda907432c94e939ce4a40cda4.mov' },
+            { type: 'video', url: 'assets/videos/brando/c87aac875f554799a0244c0507434df0.mov' },
  
-    //     ],
-    //     caption: "How can we forget Brando !!",
-    //     likes: 76123,
-    //     user: 'Alison Roy',
-    //     timestamp: '8 June 2021'
-    // },
-    // {
-    //     id: 15,
-    //     media: [
-    //         { type: 'image', url: 'assets/images/16thbday/IMG_4978.PNG' },
-    //         { type: 'image', url: 'assets/images/16thbday/IMG_4970.PNG' },
+        ],
+        caption: "How can we forget Brando !!",
+        likes: 76123,
+        user: 'Alison Roy',
+        timestamp: '8 June 2021'
+    },
+    {
+        id: 93,
+        media: [
+            { type: 'image', url: 'assets/images/16thbday/IMG_4978.PNG' },
+            { type: 'image', url: 'assets/images/16thbday/IMG_4970.PNG' },
  
-    //     ],
-    //     caption: "Thangachiii's Birthday since we met",
-    //     likes: 76123,
-    //     user: 'Alison Roy',
-    //     timestamp: '27 April 2021'
-    // },
+        ],
+        caption: "Thangachiii's Birthday since we met",
+        likes: 76123,
+        user: 'Alison Roy',
+        timestamp: '27 April 2021'
+    },
 ];
 
 // Track liked posts
@@ -1184,10 +1551,15 @@ function setupEventListeners() {
         themeToggle.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
     });
 
-    // Load dark mode preference
-    if (localStorage.getItem('feedDarkMode') === 'true') {
+    // Load dark mode preference, default to dark mode
+    const storedTheme = localStorage.getItem('feedDarkMode');
+    const useDarkMode = storedTheme !== 'false';
+
+    if (useDarkMode) {
         document.body.classList.add('dark-mode');
         themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    } else {
+        themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
     }
 }
 
