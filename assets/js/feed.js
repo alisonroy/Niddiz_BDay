@@ -171,7 +171,7 @@ const memoryFeedData = [
             { type: 'image', url: 'assets/images/mirror/IMG_8811.PNG' },
             { type: 'image', url: 'assets/images/mirror/IMG_8743.PNG' },
             { type: 'image', url: 'assets/images/mirror/IMG_4649.PNG' },
- 
+
         ],
         caption: 'Sottai Mirror Obsession!!!',
         likes: 6612,
@@ -183,7 +183,7 @@ const memoryFeedData = [
         media: [
             { type: 'image', url: 'assets/images/formal/5d753c9c-3f5b-4989-b767-687f91e86931.jpg' },
             { type: 'image', url: 'assets/images/formal/IMG_4840.jpg' },
- 
+
         ],
         caption: 'Finally straight Face Photos 😙',
         likes: 98,
@@ -208,7 +208,7 @@ const memoryFeedData = [
     {
         id: 15,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-1796366170.mp4' }, 
+            { type: 'video', url: 'assets/videos/Snapchat-1796366170.mp4' },
         ],
         caption: "Our First Movie Thaniya - Project Hail Mary",
         likes: 6571,
@@ -218,9 +218,9 @@ const memoryFeedData = [
     {
         id: 16,
         media: [
-            { type: 'video', url: 'assets/videos/ECR/Snapchat-1332258719.mp4' }, 
-            { type: 'video', url: 'assets/videos/ECR/Snapchat-320866666.mp4' }, 
-            { type: 'image', url: 'assets/images/PXL_20260331_131946992.MP.jpg' }, 
+            { type: 'video', url: 'assets/videos/ECR/Snapchat-1332258719.mp4' },
+            { type: 'video', url: 'assets/videos/ECR/Snapchat-320866666.mp4' },
+            { type: 'image', url: 'assets/images/PXL_20260331_131946992.MP.jpg' },
         ],
         caption: "ECR Polamaaaa ?",
         likes: 42123,
@@ -230,12 +230,12 @@ const memoryFeedData = [
     {
         id: 17,
         media: [
-            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_125618294.mp4' }, 
-            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_152025871.mp4' }, 
-            { type: 'video', url: 'assets/videos/Highway/Snapchat-5705355.mp4' }, 
-            { type: 'video', url: 'assets/videos/Highway/Snapchat-726450220.mp4' }, 
-            { type: 'video', url: 'assets/videos/Highway/Snapchat-2045489062.mp4' }, 
-            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_144202388.mp4' }, 
+            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_125618294.mp4' },
+            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_152025871.mp4' },
+            { type: 'video', url: 'assets/videos/Highway/Snapchat-5705355.mp4' },
+            { type: 'video', url: 'assets/videos/Highway/Snapchat-726450220.mp4' },
+            { type: 'video', url: 'assets/videos/Highway/Snapchat-2045489062.mp4' },
+            { type: 'video', url: 'assets/videos/Highway/PXL_20260305_144202388.mp4' },
         ],
         caption: "Passenger Prince + Highway Ride + Reliance Smart = Great Day",
         likes: 58722,
@@ -245,8 +245,8 @@ const memoryFeedData = [
     {
         id: 18,
         media: [
-            { type: 'image', url: 'assets/images/Crab/Snapchat-352801905.jpg' }, 
-            { type: 'image', url: 'assets/images/Crab/Snapchat-413380019.jpg' }, 
+            { type: 'image', url: 'assets/images/Crab/Snapchat-352801905.jpg' },
+            { type: 'image', url: 'assets/images/Crab/Snapchat-413380019.jpg' },
         ],
         caption: "Rare days when our restaurant selection turn out great; That Crab 🥰",
         likes: 18771,
@@ -256,8 +256,8 @@ const memoryFeedData = [
     {
         id: 19,
         media: [
-            { type: 'video', url: 'assets/videos/Diet/PXL_20260128_132407758.mp4' }, 
-            { type: 'video', url: 'assets/videos/Diet/Snapchat-1109537230.mp4' }, 
+            { type: 'video', url: 'assets/videos/Diet/PXL_20260128_132407758.mp4' },
+            { type: 'video', url: 'assets/videos/Diet/Snapchat-1109537230.mp4' },
         ],
         caption: "When we are on Diet",
         likes: 67162,
@@ -267,8 +267,8 @@ const memoryFeedData = [
     {
         id: 20,
         media: [
-            { type: 'image', url: 'assets/images/flowers/PXL_20260125_053529804.jpg' }, 
-            { type: 'image', url: 'assets/images/flowers/PXL_20260125_041225499.MP.jpg' }, 
+            { type: 'image', url: 'assets/images/flowers/PXL_20260125_053529804.jpg' },
+            { type: 'image', url: 'assets/images/flowers/PXL_20260125_041225499.MP.jpg' },
         ],
         caption: "Flowers to cheer up Madommmm!",
         likes: 18771,
@@ -278,11 +278,11 @@ const memoryFeedData = [
     {
         id: 21,
         media: [
-            { type: 'video', url: 'assets/videos/IMG_7717.MOV' }, 
+            { type: 'video', url: 'assets/videos/IMG_7717.MOV' },
             { type: 'image', url: 'assets/images/ooty/PXL_20260118_043451835.jpg' },
-            { type: 'image', url: 'assets/images/ooty/IMG_7762.jpg' }, 
-            { type: 'image', url: 'assets/images/ooty/IMG_7786.jpg' }, 
-            { type: 'image', url: 'assets/images/ooty/IMG_9413.jpg' }, 
+            { type: 'image', url: 'assets/images/ooty/IMG_7762.jpg' },
+            { type: 'image', url: 'assets/images/ooty/IMG_7786.jpg' },
+            { type: 'image', url: 'assets/images/ooty/IMG_9413.jpg' },
         ],
         caption: "Our Secoind Trip - Ooootyyyy !!",
         likes: 4191,
@@ -465,7 +465,7 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '12 July 2025'
     },
-    {    
+    {
         id: 38,
         media: [
             { type: 'video', url: 'assets/videos/Snapchat-1192651669.mp4' },
@@ -475,7 +475,7 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '4 July 2025'
     },
-    {    
+    {
         id: 39,
         media: [
             { type: 'image', url: 'assets/images/dk/PXL_20250628_074858714.MP.jpg' },
@@ -488,7 +488,7 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '28 June 2025'
     },
-    {    
+    {
         id: 40,
         media: [
             { type: 'image', url: 'assets/images/20bDay/PXL_20250504_073417707.MP.jpg' },
@@ -503,7 +503,7 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '4 May 2025'
     },
-    {    
+    {
         id: 41,
         media: [
             { type: 'image', url: 'assets/images/PXL_20250422_101320077.MP.jpg' },
@@ -513,7 +513,7 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '22 April 2025'
     },
-    {    
+    {
         id: 42,
         media: [
             { type: 'video', url: 'assets/videos/Snapchat-877157050.mp4' },
@@ -523,7 +523,7 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '12 April 2025'
     },
-    {    
+    {
         id: 43,
         media: [
             { type: 'video', url: 'assets/videos/Snapchat-1014847222.mp4' },
@@ -533,7 +533,7 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '30 March 2025'
     },
-    {    
+    {
         id: 44,
         media: [
             { type: 'video', url: 'assets/videos/Snapchat-859024837.mp4' },
@@ -543,195 +543,195 @@ const memoryFeedData = [
         user: 'Alison Roy',
         timestamp: '25 March 2025'
     },
-    {    
+    {
         id: 45,
         media: [
-            { type: 'image', url: 'assets/images/eyes/PXL_20250315_125259893.jpg'},
-            { type: 'image', url: 'assets/images/eyes/PXL_20250315_125422145.jpg'},
+            { type: 'image', url: 'assets/images/eyes/PXL_20250315_125259893.jpg' },
+            { type: 'image', url: 'assets/images/eyes/PXL_20250315_125422145.jpg' },
         ],
         caption: "The Brown Eyes I Failed to Notice",
         likes: 42213,
         user: 'Alison Roy',
         timestamp: '15 March 2025'
     },
-    {    
+    {
         id: 46,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-1067024078.mp4'},
+            { type: 'video', url: 'assets/videos/Snapchat-1067024078.mp4' },
         ],
         caption: "Get her a BOBA TEA if She's mad at Youuuu",
         likes: 76613,
         user: 'Alison Roy',
         timestamp: '12 March 2025'
     },
-    {    
+    {
         id: 47,
         media: [
-            { type: 'image', url: 'assets/images/varkala/IMG_5872~2.JPG'},
-            { type: 'image', url: 'assets/images/varkala/IMG_6140.JPG'},
-            { type: 'image', url: 'assets/images/varkala/IMG_6170.JPG'},
-            { type: 'image', url: 'assets/images/varkala/IMG_6248.JPG'},
-            { type: 'image', url: 'assets/images/varkala/IMG_6322.JPG'},
-            { type: 'image', url: 'assets/images/varkala/PXL_20250222_121546568.PORTRAIT.jpg'},
+            { type: 'image', url: 'assets/images/varkala/IMG_5872~2.JPG' },
+            { type: 'image', url: 'assets/images/varkala/IMG_6140.JPG' },
+            { type: 'image', url: 'assets/images/varkala/IMG_6170.JPG' },
+            { type: 'image', url: 'assets/images/varkala/IMG_6248.JPG' },
+            { type: 'image', url: 'assets/images/varkala/IMG_6322.JPG' },
+            { type: 'image', url: 'assets/images/varkala/PXL_20250222_121546568.PORTRAIT.jpg' },
         ],
         caption: "Our First Trip Together - Kanthaloor and Varkala",
         likes: 76613,
         user: 'Alison Roy',
         timestamp: '20 February 2025 - 23 February 2025'
     },
-    {    
+    {
         id: 48,
         media: [
-            { type: 'video', url: 'assets/videos/accept/Snapchat-1863453388.mp4'},
-            { type: 'video', url: 'assets/videos/accept/Snapchat-2023795529.mp4'},
+            { type: 'video', url: 'assets/videos/accept/Snapchat-1863453388.mp4' },
+            { type: 'video', url: 'assets/videos/accept/Snapchat-2023795529.mp4' },
         ],
         caption: "I admire your Sense of Acceptance",
         likes: 6899,
         user: 'Alison Roy',
         timestamp: '29 January 2025'
     },
-    {    
+    {
         id: 49,
         media: [
-            { type: 'image', url: 'assets/images/pp_bike/PXL_20241118_131436645.MP.jpg'},
-            { type: 'image', url: 'assets/images/pp_bike/PXL_20241118_131440075.MP.jpg'},
-            { type: 'video', url: 'assets/videos/Snapchat-476787581.mp4'},
+            { type: 'image', url: 'assets/images/pp_bike/PXL_20241118_131436645.MP.jpg' },
+            { type: 'image', url: 'assets/images/pp_bike/PXL_20241118_131440075.MP.jpg' },
+            { type: 'video', url: 'assets/videos/Snapchat-476787581.mp4' },
         ],
         caption: "Passenger Prince but this time in Bike",
         likes: 9091,
         user: 'Alison Roy',
         timestamp: '18 November 2024'
     },
-    {    
+    {
         id: 50,
         media: [
-            { type: 'image', url: 'assets/images/blood/Snapchat-113743156.jpg'},
-            { type: 'image', url: 'assets/images/blood/Snapchat-456906382.jpg'},
-            { type: 'image', url: 'assets/images/blood/PXL_20241116_121807356.MP.jpg'},
+            { type: 'image', url: 'assets/images/blood/Snapchat-113743156.jpg' },
+            { type: 'image', url: 'assets/images/blood/Snapchat-456906382.jpg' },
+            { type: 'image', url: 'assets/images/blood/PXL_20241116_121807356.MP.jpg' },
         ],
         caption: "Ticking off one from Bucket List - Blood Donation",
         likes: 98123,
         user: 'Alison Roy',
         timestamp: '16 November 2024'
     },
-    {    
+    {
         id: 51,
         media: [
-            { type: 'image', url: 'assets/images/PXL_20241109_175312065.MP.jpg'},
+            { type: 'image', url: 'assets/images/PXL_20241109_175312065.MP.jpg' },
         ],
         caption: "We could have posed better",
         likes: 7891,
         user: 'Alison Roy',
         timestamp: '9 November 2024'
     },
-    {    
+    {
         id: 52,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-306835966.mp4'},
+            { type: 'video', url: 'assets/videos/Snapchat-306835966.mp4' },
         ],
         caption: "Things She does to Me",
         likes: 9013,
         user: 'Alison Roy',
         timestamp: '8 November 2024'
     },
-    {    
+    {
         id: 53,
         media: [
-            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_124903060.PORTRAIT.jpg'},
-            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_123719579.jpg'},
-            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_121701394.PORTRAIT.jpg'},
-            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_121539313.MP.jpg'},
-            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_170701991.PORTRAIT.jpg'},
-            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_120842485.MP.jpg'},
+            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_124903060.PORTRAIT.jpg' },
+            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_123719579.jpg' },
+            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_121701394.PORTRAIT.jpg' },
+            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_121539313.MP.jpg' },
+            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_170701991.PORTRAIT.jpg' },
+            { type: 'image', url: 'assets/images/Diwali24/PXL_20241031_120842485.MP.jpg' },
         ],
         caption: "Diwali 2k24 - My Favourite Diwali",
         likes: 7891,
         user: 'Alison Roy',
         timestamp: '31 October 2024'
     },
-    {    
+    {
         id: 54,
         media: [
-            { type: 'video', url: 'assets/videos/jawa/Snapchat-1212095701.mp4'},
-            { type: 'image', url: 'assets/images/jawa/PXL_20241030_151053942.MP.jpg'},
-            { type: 'video', url: 'assets/videos/jawa/Snapchat-1648183275.mp4'},
-            { type: 'image', url: 'assets/images/jawa/PXL_20241030_151125301.MP.jpg'},
+            { type: 'video', url: 'assets/videos/jawa/Snapchat-1212095701.mp4' },
+            { type: 'image', url: 'assets/images/jawa/PXL_20241030_151053942.MP.jpg' },
+            { type: 'video', url: 'assets/videos/jawa/Snapchat-1648183275.mp4' },
+            { type: 'image', url: 'assets/images/jawa/PXL_20241030_151125301.MP.jpg' },
         ],
         caption: "Our First Bike Ride Ft Our Jawa 42 FJ",
         likes: 98912,
         user: 'Alison Roy',
         timestamp: '30 October 2024'
     },
-    {    
+    {
         id: 55,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-7688577.mp4'},
-            { type: 'image', url: 'assets/images/PXL_20241028_170030338.MP.jpg'},
+            { type: 'video', url: 'assets/videos/Snapchat-7688577.mp4' },
+            { type: 'image', url: 'assets/images/PXL_20241028_170030338.MP.jpg' },
         ],
         caption: "When Nidhiz becomes the Therapist",
         likes: 87134,
         user: 'Alison Roy',
         timestamp: '28 October 2024'
     },
-    {    
+    {
         id: 56,
         media: [
-            { type: 'image', url: 'assets/images/IMG_2700.jpg'},
+            { type: 'image', url: 'assets/images/IMG_2700.jpg' },
         ],
         caption: "Our First Concert - HHT",
         likes: 7780,
         user: 'Alison Roy',
         timestamp: '19 October 2024'
     },
-    {    
+    {
         id: 57,
         media: [
-            { type: 'image', url: 'assets/images/happy/PXL_20241016_104757512.MP.jpg'},
-            { type: 'image', url: 'assets/images/happy/PXL_20241016_104759759.MP.jpg'},
-            { type: 'image', url: 'assets/images/happy/PXL_20241016_104754958.MP.jpg'},
-            { type: 'image', url: 'assets/images/happy/PXL_20241016_104703206.MP.jpg'},
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104757512.MP.jpg' },
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104759759.MP.jpg' },
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104754958.MP.jpg' },
+            { type: 'image', url: 'assets/images/happy/PXL_20241016_104703206.MP.jpg' },
         ],
         caption: "Happy and Crazy US",
         likes: 100097,
         user: 'Alison Roy',
         timestamp: '16 October 2024'
     },
-    {    
+    {
         id: 58,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-449558827.mp4'},
+            { type: 'video', url: 'assets/videos/Snapchat-449558827.mp4' },
         ],
         caption: "Obviously",
         likes: 7657,
         user: 'Alison Roy',
         timestamp: '2 October 2024'
     },
-    {    
+    {
         id: 59,
         media: [
-            { type: 'image', url: 'assets/images/PXL_20240904_163002738.MP.jpg'},
+            { type: 'image', url: 'assets/images/PXL_20240904_163002738.MP.jpg' },
         ],
         caption: "If Disappointment had a Face",
         likes: 87614,
         user: 'Alison Roy',
         timestamp: '4 September 2024'
     },
-    {    
+    {
         id: 60,
         media: [
-            { type: 'image', url: 'assets/images/abday24/PXL_20240825_160822556.MP.jpg'},
-            { type: 'video', url: 'assets/videos/Snapchat-827205716.mp4'},
-            { type: 'image', url: 'assets/images/abday24/Snapchat-63235082.jpg'},
+            { type: 'image', url: 'assets/images/abday24/PXL_20240825_160822556.MP.jpg' },
+            { type: 'video', url: 'assets/videos/Snapchat-827205716.mp4' },
+            { type: 'image', url: 'assets/images/abday24/Snapchat-63235082.jpg' },
         ],
         caption: "My 23rd Birthday",
         likes: 8091,
         user: 'Alison Roy',
         timestamp: '25 August 2024'
     },
-    {    
+    {
         id: 61,
         media: [
-            { type: 'image', url: 'assets/images/PXL_20240810_122120733.NIGHT.jpg'},
+            { type: 'image', url: 'assets/images/PXL_20240810_122120733.NIGHT.jpg' },
         ],
         caption: "Our Last Photo in Dzire",
         likes: 6671,
@@ -739,9 +739,9 @@ const memoryFeedData = [
         timestamp: '10 August 2024'
     },
     {
-      id: 62,
+        id: 62,
         media: [
-            { type: 'image', url: 'assets/images/PXL_20240802_134110484.MP.jpg'},
+            { type: 'image', url: 'assets/images/PXL_20240802_134110484.MP.jpg' },
         ],
         caption: "Trusting her with my Life",
         likes: 98123,
@@ -749,9 +749,9 @@ const memoryFeedData = [
         timestamp: '2 August 2024'
     },
     {
-      id: 63,
+        id: 63,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-2045038052.mp4'},
+            { type: 'video', url: 'assets/videos/Snapchat-2045038052.mp4' },
         ],
         caption: "Sottai Loves Rain",
         likes: 5131,
@@ -759,10 +759,10 @@ const memoryFeedData = [
         timestamp: '3 July 2024'
     },
     {
-      id: 64,
+        id: 64,
         media: [
-            { type: 'video', url: 'assets/videos/Snapchat-967195375.mp4'},
-            { type: 'image', url: 'assets/images/PXL_20240616_122702161.PORTRAIT.jpg'},
+            { type: 'video', url: 'assets/videos/Snapchat-967195375.mp4' },
+            { type: 'image', url: 'assets/images/PXL_20240616_122702161.PORTRAIT.jpg' },
         ],
         caption: "Smiles All Around 😊",
         likes: 6379,
@@ -770,9 +770,9 @@ const memoryFeedData = [
         timestamp: '16 June 2024'
     },
     {
-      id: 65,
+        id: 65,
         media: [
-            { type: 'image', url: 'assets/images/PXL_20240608_043350849.PORTRAIT.jpg'},
+            { type: 'image', url: 'assets/images/PXL_20240608_043350849.PORTRAIT.jpg' },
         ],
         caption: "Saranadaikiran Thaaye 🧎",
         likes: 8913,
@@ -780,10 +780,10 @@ const memoryFeedData = [
         timestamp: '8 June 2024'
     },
     {
-      id: 66,
+        id: 66,
         media: [
-            { type: 'image', url: 'assets/images/ap/IMG_3885.JPG'},
-            { type: 'image', url: 'assets/images/ap/DSC_6185_Original.JPG'},
+            { type: 'image', url: 'assets/images/ap/IMG_3885.JPG' },
+            { type: 'image', url: 'assets/images/ap/DSC_6185_Original.JPG' },
         ],
         caption: "Our First Amusement Park Trip",
         likes: 34698,
@@ -791,9 +791,9 @@ const memoryFeedData = [
         timestamp: '23 December 2023'
     },
     {
-      id: 67,
+        id: 67,
         media: [
-            { type: 'image', url: 'assets/images/IMG_2679.jpg'},
+            { type: 'image', url: 'assets/images/IMG_2679.jpg' },
         ],
         caption: "Candid Aahn",
         likes: 34698,
@@ -801,9 +801,9 @@ const memoryFeedData = [
         timestamp: '17 October 2023'
     },
     {
-      id: 68,
+        id: 68,
         media: [
-            { type: 'image', url: 'assets/images/IMG_2016.jpg'},
+            { type: 'image', url: 'assets/images/IMG_2016.jpg' },
         ],
         caption: "My 22nd Birthday",
         likes: 4583,
@@ -811,9 +811,9 @@ const memoryFeedData = [
         timestamp: '25 August 2023'
     },
     {
-      id: 69,
+        id: 69,
         media: [
-            { type: 'video', url: 'assets/videos/recorded-6414982890583.mp4'},
+            { type: 'video', url: 'assets/videos/recorded-6414982890583.mp4' },
         ],
         caption: "Always Busy thaan Madam",
         likes: 1236,
@@ -821,11 +821,11 @@ const memoryFeedData = [
         timestamp: '19 August 2023'
     },
     {
-      id: 70,
+        id: 70,
         media: [
-            { type: 'video', url: 'assets/videos/sky/Snapchat-1588085299.mp4'},
-            { type: 'image', url: 'assets/images/IMG_1523.jpg'},
-            { type: 'video', url: 'assets/videos/sky/filtered-6E1BB02F-9043-440E-901B-F5B745703F80.mp4'},
+            { type: 'video', url: 'assets/videos/sky/Snapchat-1588085299.mp4' },
+            { type: 'image', url: 'assets/images/IMG_1523.jpg' },
+            { type: 'video', url: 'assets/videos/sky/filtered-6E1BB02F-9043-440E-901B-F5B745703F80.mp4' },
 
         ],
         caption: "The day SKY came into our Lives",
@@ -834,9 +834,9 @@ const memoryFeedData = [
         timestamp: '15 July 2023'
     },
     {
-      id: 71,
+        id: 71,
         media: [
-            { type: 'image', url: 'assets/images/IMG_0649.jpg'},
+            { type: 'image', url: 'assets/images/IMG_0649.jpg' },
         ],
         caption: "Our First Lunch Thaniya",
         likes: 61853,
@@ -844,9 +844,9 @@ const memoryFeedData = [
         timestamp: '16 May 2023'
     },
     {
-      id: 72,
+        id: 72,
         media: [
-            { type: 'image', url: 'assets/images/IMG_9789.jpg'},
+            { type: 'image', url: 'assets/images/IMG_9789.jpg' },
         ],
         caption: "Niddiz's 18th Birthday",
         likes: 86254,
@@ -854,9 +854,9 @@ const memoryFeedData = [
         timestamp: '28 April 2023'
     },
     {
-      id: 73,
+        id: 73,
         media: [
-            { type: 'image', url: 'assets/images/IMG_7067.jpg'},
+            { type: 'image', url: 'assets/images/IMG_7067.jpg' },
         ],
         caption: "I am her Handbag",
         likes: 75523,
@@ -864,9 +864,9 @@ const memoryFeedData = [
         timestamp: '23 February 2023'
     },
     {
-      id: 74,
+        id: 74,
         media: [
-            { type: 'image', url: 'assets/images/IMG_6214.jpg'},
+            { type: 'image', url: 'assets/images/IMG_6214.jpg' },
         ],
         caption: "Accidental Twinning",
         likes: 46181,
@@ -874,10 +874,10 @@ const memoryFeedData = [
         timestamp: '12 January 2023'
     },
     {
-      id: 75,
+        id: 75,
         media: [
-            { type: 'video', url: 'assets/videos/filtered-E2E644CC-7DE2-4959-982B-5947AC70127E.mp4'},
-            { type: 'image', url: 'assets/images/IMG_5238.jpg'},
+            { type: 'video', url: 'assets/videos/filtered-E2E644CC-7DE2-4959-982B-5947AC70127E.mp4' },
+            { type: 'image', url: 'assets/images/IMG_5238.jpg' },
         ],
         caption: "Diwali 2k22",
         likes: 51681,
@@ -885,10 +885,10 @@ const memoryFeedData = [
         timestamp: '24 October 2022'
     },
     {
-      id: 76,
+        id: 76,
         media: [
-            { type: 'image', url: 'assets/images/first_movie/IMG_4744.JPG'},
-            { type: 'image', url: 'assets/images/first_movie/IMG_4783.JPG'},
+            { type: 'image', url: 'assets/images/first_movie/IMG_4744.JPG' },
+            { type: 'image', url: 'assets/images/first_movie/IMG_4783.JPG' },
         ],
         caption: "Our First Movie Together",
         likes: 23654,
@@ -896,9 +896,9 @@ const memoryFeedData = [
         timestamp: '24 September 2022'
     },
     {
-      id: 77,
+        id: 77,
         media: [
-            { type: 'image', url: 'assets/images/IMG_4345.JPG'},
+            { type: 'image', url: 'assets/images/IMG_4345.JPG' },
         ],
         caption: "Not so Fit US ",
         likes: 14862,
@@ -906,9 +906,9 @@ const memoryFeedData = [
         timestamp: '4 September 2022'
     },
     {
-      id: 78,
+        id: 78,
         media: [
-            { type: 'video', url: 'assets/videos/filtered-BE602066-8977-40F1-8412-418345808577.mp4'},
+            { type: 'video', url: 'assets/videos/filtered-BE602066-8977-40F1-8412-418345808577.mp4' },
         ],
         caption: "A gift that has been passed on to Leah",
         likes: 56249,
@@ -916,9 +916,9 @@ const memoryFeedData = [
         timestamp: '27 August 2022'
     },
     {
-      id: 79,
+        id: 79,
         media: [
-            { type: 'image', url: 'assets/images/IMG_4121.jpg'},
+            { type: 'image', url: 'assets/images/IMG_4121.jpg' },
         ],
         caption: "My 21st Birthday",
         likes: 78951,
@@ -926,9 +926,9 @@ const memoryFeedData = [
         timestamp: '25 August 2022'
     },
     {
-      id: 80,
+        id: 80,
         media: [
-            { type: 'video', url: 'assets/videos/E9926318-1D70-4D8F-844B-45C887E5FCDE.mp4'},
+            { type: 'video', url: 'assets/videos/E9926318-1D70-4D8F-844B-45C887E5FCDE.mp4' },
         ],
         caption: "Madam's Singing Skills aka Isai Mazhaiyil Nanaiya Thayaraa",
         likes: 8534,
@@ -936,9 +936,9 @@ const memoryFeedData = [
         timestamp: '7 August 2022'
     },
     {
-      id: 81,
+        id: 81,
         media: [
-            { type: 'video', url: 'assets/videos/recorded-364914089852.mp4'},
+            { type: 'video', url: 'assets/videos/recorded-364914089852.mp4' },
         ],
         caption: "Kadharalz",
         likes: 4561,
@@ -946,9 +946,9 @@ const memoryFeedData = [
         timestamp: '20 July 2022'
     },
     {
-      id: 82,
+        id: 82,
         media: [
-            { type: 'image', url: 'assets/images/IMG_1301.JPG'},
+            { type: 'image', url: 'assets/images/IMG_1301.JPG' },
         ],
         caption: "Niddiz 17th Birthday",
         likes: 85412,
@@ -956,9 +956,9 @@ const memoryFeedData = [
         timestamp: '27 April 2022'
     },
     {
-      id: 83,
+        id: 83,
         media: [
-            { type: 'video', url: 'assets/videos/filtered-96F960FD-C557-4D73-A278-0B2AA3752CB8.mp4'},
+            { type: 'video', url: 'assets/videos/filtered-96F960FD-C557-4D73-A278-0B2AA3752CB8.mp4' },
         ],
         caption: "You are always Late",
         likes: 7989,
@@ -966,9 +966,9 @@ const memoryFeedData = [
         timestamp: '12 March 2022'
     },
     {
-      id: 84,
+        id: 84,
         media: [
-            { type: 'image', url: 'assets/images/IMG_8812.jpg'},
+            { type: 'image', url: 'assets/images/IMG_8812.jpg' },
         ],
         caption: "Hope you liked the Hoodie",
         likes: 16632,
@@ -976,9 +976,9 @@ const memoryFeedData = [
         timestamp: '11 November 2021'
     },
     {
-      id: 85,
+        id: 85,
         media: [
-            { type: 'image', url: 'assets/images/IMG_8808.jpg'},
+            { type: 'image', url: 'assets/images/IMG_8808.jpg' },
         ],
         caption: "Not for Me",
         likes: 25632,
@@ -986,9 +986,9 @@ const memoryFeedData = [
         timestamp: '10 November 2021'
     },
     {
-      id: 86,
+        id: 86,
         media: [
-            { type: 'image', url: 'assets/images/IMG_8165.jpg'},
+            { type: 'image', url: 'assets/images/IMG_8165.jpg' },
         ],
         caption: "Photo After our First Fight",
         likes: 35641,
@@ -996,9 +996,9 @@ const memoryFeedData = [
         timestamp: '16 October 2021'
     },
     {
-      id: 87,
+        id: 87,
         media: [
-            { type: 'image', url: 'assets/images/IMG_7917.jpg'},
+            { type: 'image', url: 'assets/images/IMG_7917.jpg' },
         ],
         caption: "Pathen Pathen",
         likes: 21563,
@@ -1006,10 +1006,10 @@ const memoryFeedData = [
         timestamp: '11 October 2021'
     },
     {
-      id: 88,
+        id: 88,
         media: [
-            { type: 'image', url: 'assets/images/joe/IMG_7205.JPG'},
-            { type: 'image', url: 'assets/images/joe/IMG_7203.jpg'},
+            { type: 'image', url: 'assets/images/joe/IMG_7205.JPG' },
+            { type: 'image', url: 'assets/images/joe/IMG_7203.jpg' },
         ],
         caption: "Joe's Waffle - Our First Meeting Outside Flats",
         likes: 65812,
@@ -1017,19 +1017,19 @@ const memoryFeedData = [
         timestamp: '25 September 2021'
     },
     {
-      id: 89,
+        id: 89,
         media: [
-            { type: 'image', url: 'assets/images/IMG_6498.jpg'},
+            { type: 'image', url: 'assets/images/IMG_6498.jpg' },
         ],
-        caption: "Our First Photo Together",
+        caption: "Our First Photo Together; <br> You may ask why am I making a digital version, its because I figured out hard copies can either be thrown away or will be damaged.<br> Thanks Thangachiii for coming into my Life. <br> Thank you still choosing to stay with me.<br> Thank you for pointing out my flaws and helping me correct them.<br> Thank you for making me who I am today.<br> Thank you for teaching me what it means to be a Man for a Woman.<br> Thank you for listening to all my rants.<br> Thank you for being there when I needed you. <br> I will always be grateful for your presence in my Life. My Thangachiii has done a lot for me. All I can give back to you is by being by your side in hard times. I can't fix you but atleast I can be by your side and make sure you are trying to fix them. Eeverything will be alright madam. Don't Overthink and complicate thinngs. You have done nothing wrong, so don't worry. Anna will always be there for you. Hope we have this bond till the end. Anna is always just a call away. You can just be you with me, don't worry Anna wont leave because I know that option isn't available now 😂. Love you to the moon and back ✨. You will always be the 11th grade kid to me, you will always be my Kutty Thangachiii ❤️",
         likes: 33977515,
         user: 'Alison Roy',
         timestamp: '25 August 2021'
     },
     {
-      id: 90,
+        id: 90,
         media: [
-            { type: 'image', url: 'assets/images/IMG_6190.JPG'},
+            { type: 'image', url: 'assets/images/IMG_6190.JPG' },
         ],
         caption: "Apdiyae Potuko",
         likes: 6521,
@@ -1037,9 +1037,9 @@ const memoryFeedData = [
         timestamp: '31 July 2021'
     },
     {
-      id: 91,
+        id: 91,
         media: [
-            { type: 'image', url: 'assets/images/IMG_6097.jpg'},
+            { type: 'image', url: 'assets/images/IMG_6097.jpg' },
         ],
         caption: "Obviously Mallu maari thaan Iruka",
         likes: 9531,
@@ -1051,7 +1051,7 @@ const memoryFeedData = [
         media: [
             { type: 'video', url: 'assets/videos/brando/b0d752cda907432c94e939ce4a40cda4.mov' },
             { type: 'video', url: 'assets/videos/brando/c87aac875f554799a0244c0507434df0.mov' },
- 
+
         ],
         caption: "How can we forget Brando !!",
         likes: 76123,
@@ -1063,7 +1063,7 @@ const memoryFeedData = [
         media: [
             { type: 'image', url: 'assets/images/16thbday/IMG_4978.PNG' },
             { type: 'image', url: 'assets/images/16thbday/IMG_4970.PNG' },
- 
+
         ],
         caption: "Thangachiii's Birthday since we met",
         likes: 76123,
@@ -1333,7 +1333,7 @@ function switchSlide(postId, direction) {
 
     const activeVideo = container.querySelector('.ig-post-media.active');
     if (activeVideo && activeVideo.tagName === 'VIDEO') {
-        activeVideo.play().catch(() => {});
+        activeVideo.play().catch(() => { });
     }
 }
 
@@ -1366,7 +1366,7 @@ function setupVideoPauseHandlers() {
             }
 
             if (entry.intersectionRatio >= 0.5 && document.visibilityState === 'visible') {
-                video.play().catch(() => {});
+                video.play().catch(() => { });
             } else {
                 video.pause();
             }
@@ -1408,7 +1408,7 @@ function playVisibleVideos() {
         const visibleHeight = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
 
         if (visibleHeight / height >= 0.5) {
-            video.play().catch(() => {});
+            video.play().catch(() => { });
         }
     });
 }
@@ -1564,7 +1564,7 @@ function openPostModal(memory) {
 
     const activeVideo = modal.querySelector('.modal-media.active');
     if (activeVideo && activeVideo.tagName === 'VIDEO') {
-        activeVideo.play().catch(() => {});
+        activeVideo.play().catch(() => { });
     }
 }
 
@@ -1599,7 +1599,7 @@ function switchModalSlide(direction) {
 
     const activeVideo = modal.querySelector('.modal-media.active');
     if (activeVideo && activeVideo.tagName === 'VIDEO') {
-        activeVideo.play().catch(() => {});
+        activeVideo.play().catch(() => { });
     }
 }
 
