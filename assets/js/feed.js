@@ -245,8 +245,8 @@ const memoryFeedData = [
     {
         id: 18,
         media: [
-            { type: 'image', url: 'assets/images/Crab/Snapchat-352801905.jpg' },
-            { type: 'image', url: 'assets/images/Crab/Snapchat-413380019.jpg' },
+            { type: 'image', url: 'assets/images/crab/Snapchat-352801905.jpg' },
+            { type: 'image', url: 'assets/images/crab/Snapchat-413380019.jpg' },
         ],
         caption: "Rare days when our restaurant selection turn out great; That Crab 🥰",
         likes: 18771,
@@ -256,8 +256,8 @@ const memoryFeedData = [
     {
         id: 19,
         media: [
-            { type: 'video', url: 'assets/videos/Diet/PXL_20260128_132407758.mp4' },
-            { type: 'video', url: 'assets/videos/Diet/Snapchat-1109537230.mp4' },
+            { type: 'video', url: 'assets/videos/diet/PXL_20260128_132407758.mp4' },
+            { type: 'video', url: 'assets/videos/diet/Snapchat-1109537230.mp4' },
         ],
         caption: "When we are on Diet",
         likes: 67162,
@@ -315,8 +315,8 @@ const memoryFeedData = [
     {
         id: 24,
         media: [
-            { type: 'video', url: 'assets/videos/Salary/PXL_20251218_155546394.mp4' },
-            { type: 'video', url: 'assets/videos/Salary/PXL_20251218_154417029.mp4' },
+            { type: 'video', url: 'assets/videos/salary/PXL_20251218_155546394.mp4' },
+            { type: 'video', url: 'assets/videos/salary/PXL_20251218_154417029.mp4' },
         ],
         caption: "Literally Every Sister After Brother's Salary Day",
         likes: 76512,
@@ -491,11 +491,11 @@ const memoryFeedData = [
     {
         id: 40,
         media: [
-            { type: 'image', url: 'assets/images/20bDay/PXL_20250504_073417707.MP.jpg' },
-            { type: 'image', url: 'assets/images/20bDay/IMG_8191.JPG' },
-            { type: 'image', url: 'assets/images/20bDay/IMG-20250506-WA0042.jpg' },
-            { type: 'image', url: 'assets/images/20bDay/PXL_20250504_071658967.jpg' },
-            { type: 'image', url: 'assets/images/20bDay/IMG_8173.JPG' },
+            { type: 'image', url: 'assets/images/20bday/PXL_20250504_073417707.MP.jpg' },
+            { type: 'image', url: 'assets/images/20bday/IMG_8191.JPG' },
+            { type: 'image', url: 'assets/images/20bday/IMG-20250506-WA0042.jpg' },
+            { type: 'image', url: 'assets/images/20bay/PXL_20250504_071658967.jpg' },
+            { type: 'image', url: 'assets/images/20bday/IMG_8173.JPG' },
             { type: 'video', url: 'assets/videos/IMG_8131.MOV' },
         ],
         caption: "Sottai's 20th BDay Surprise",
@@ -887,7 +887,7 @@ const memoryFeedData = [
     {
         id: 76,
         media: [
-            { type: 'image', url: 'assets/images/first_movie/IMG_4744.JPG' },
+            { type: 'image', url: 'assets/images/first_movie/IMG_4744.jpg' },
             { type: 'image', url: 'assets/images/first_movie/IMG_4783.JPG' },
         ],
         caption: "Our First Movie Together",
