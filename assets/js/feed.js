@@ -72,12 +72,12 @@ const memoryFeedData = [
     {
         id: 6,
         media: [
-            { type: 'video', url: 'assets/videos/collage/Memories_together.mp4' },
+            { type: 'video', url: 'assets/videos/Collage/Memories_together.mp4' },
             { type: 'image', url: 'assets/images/collage/IMG_6498-COLLAGE.jpg' },
             { type: 'image', url: 'assets/images/collage/IMG_8162-COLLAGE.jpg' },
             { type: 'image', url: 'assets/images/collage/PXL_20240608_043350849.PORTRAIT-COLLAGE.jpg' },
             { type: 'image', url: 'assets/images/collage/PXL_20240904_163002738.MP-COLLAGE.jpg' },
-            { type: 'video', url: 'assets/videos/collage/Snapchat-2003755775.mp4' },
+            { type: 'video', url: 'assets/videos/Collage/Snapchat-2003755775.mp4' },
             { type: 'image', url: 'assets/images/collage/PXL_20250628_103532683.MP-COLLAGE.jpg' },
             { type: 'image', url: 'assets/images/collage/IMG_6215-COLLAGE.jpg' },
         ],
@@ -494,7 +494,7 @@ const memoryFeedData = [
             { type: 'image', url: 'assets/images/20bday/PXL_20250504_073417707.MP.jpg' },
             { type: 'image', url: 'assets/images/20bday/IMG_8191.JPG' },
             { type: 'image', url: 'assets/images/20bday/IMG-20250506-WA0042.jpg' },
-            { type: 'image', url: 'assets/images/20bay/PXL_20250504_071658967.jpg' },
+            { type: 'image', url: 'assets/images/20bday/PXL_20250504_071658967.jpg' },
             { type: 'image', url: 'assets/images/20bday/IMG_8173.JPG' },
             { type: 'video', url: 'assets/videos/IMG_8131.MOV' },
         ],
