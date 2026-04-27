@@ -56,7 +56,7 @@ const memoryFeedData = [
     {
         id: 5,
         media: [
-            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_4311.png' },
+            { type: 'image', url: 'assets/images/kutty_niddiz/IMG_4311.PNG' },
             { type: 'image', url: 'assets/images/kutty_niddiz/IMG_5068.PNG' },
             { type: 'image', url: 'assets/images/kutty_niddiz/IMG_6016.PNG' },
             { type: 'image', url: 'assets/images/kutty_niddiz/IMG_6017.PNG' },
